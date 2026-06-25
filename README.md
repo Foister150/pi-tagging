@@ -4,13 +4,13 @@ A [pi](https://pi.dev) extension that lets you organize your sessions with
 **path-style, hierarchical tags** and browse them as a file-tree-like structure.
 
 - `/tag` — view/add/remove tags on the **current** session
-- `/tag <tag…>` — quick-add one or more tags (e.g. `/tag pacemaker/frontend`)
+- `/tag <tag…>` — quick-add one or more tags (e.g. `/tag coordinate/commands`)
 - `/tag pick` — choose any session, then edit its tags
 - `/tag-view` — browse every session as a tag tree; switch, rename, delete, or
   retag from there
 
-Tags use a `/` separator to form sub-tags, so `pacemaker/frontend` is a child of
-`pacemaker`. Untagged sessions are grouped under an `etc` bucket. Tags are stored
+Tags use a `/` separator to form sub-tags, so `pcoordinate/commands` is a child of
+`coordinate`. Untagged sessions are grouped under an `etc` bucket. Tags are stored
 centrally in `~/.pi/agent/session-tags.json` and refreshed in the background on
 every session start.
 
@@ -44,12 +44,12 @@ pi -e npm:@foister150/pi-tagging
 
 ```text
 /tag                      # interactive add/remove menu for the current session
-/tag pacemaker/frontend   # quick-add (space-separated, path-style, multiple ok)
-/tag pacemaker infra/ci   # add several at once
+/tag coordinate/commands  # quick-add (space-separated, path-style, multiple ok)
+/tag coordinate infra/ci   # add several at once
 /tag pick                 # choose another session, then edit its tags
 ```
 
-Sub-tags are just tags with a `/` in them — `pacemaker/frontend/auth` is three
+Sub-tags are just tags with a `/` in them — `coordinate/commands/base64` is three
 levels deep.
 
 ### Browsing
@@ -58,7 +58,7 @@ levels deep.
 /tag-view
 ```
 
-Top level shows your tags (`pacemaker`, `infra`, …) plus an `etc` bucket for
+Top level shows your tags (`coordinate`, `infra`, …) plus an `etc` bucket for
 untagged sessions. Drill into `📁` folders; selecting a session (`🗎`) opens an
 action menu:
 
