@@ -1,0 +1,40 @@
+{
+  "name": "@foister150/pi-tagging",
+  "version": "0.1.0",
+  "description": "Tag pi sessions with path-style hierarchical tags and browse them as a tree. Adds /tag and /tag-view.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "sessions",
+    "tags",
+    "tagging"
+  ],
+  "license": "MIT",
+  "author": "Landon Foister <foisterlandon@gmail.com>",
+  "homepage": "https://github.com/Foister150/pi-tagging#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foister150/pi-tagging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Foister150/pi-tagging/issues"
+  },
+  "type": "module",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "src/tags.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
