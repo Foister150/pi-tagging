@@ -1,6 +1,6 @@
 {
   "name": "@foister150/pi-tagging",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tag pi sessions with path-style hierarchical tags and browse them as a tree. Adds /tag and /tag-view.",
   "keywords": [
     "pi-package",

@@ -23,7 +23,7 @@ pi install npm:@foister150/pi-tagging
 Or pin a version:
 
 ```bash
-pi install npm:@foister150/pi-tagging@0.1.0
+pi install npm:@foister150/pi-tagging@0.1.1
 ```
 
 Install from git instead of npm:
