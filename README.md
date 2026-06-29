@@ -44,8 +44,8 @@ pi -e npm:@foister150/pi-tagging
 
 ```text
 /tag                      # interactive add/remove menu for the current session
-/tag project/frontend   # quick-add (space-separated, path-style, multiple ok)
-/tag project infra/ci   # add several at once
+/tag project/frontend     # quick-add (space-separated, path-style, multiple ok)
+/tag project infra/ci     # add several at once
 /tag pick                 # choose another session, then edit its tags
 ```
 
